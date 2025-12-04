@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
@@ -21,10 +21,11 @@ export default function Page() {
       borderRadius="rounded"
       contentWidth="small"
       sizing="large"
-      background="gradientBars"
+      background="animatedGrid"
       cardStyle="glass-elevated"
       primaryButtonStyle="flat"
       secondaryButtonStyle="radial-glow"
+      headingFontWeight="normal"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingInline
@@ -39,7 +40,6 @@ export default function Page() {
             text: "Get Started",
             href: "#contact"
           }}
-          className="bg-white/80 backdrop-blur-md border border-gray-200"
         />
       </div>
 
